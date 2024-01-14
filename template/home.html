@@ -1,0 +1,171 @@
+{% extends "shared.html" %}
+{% block content %}
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Dashboard</h1>
+
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+        </ol>
+         <a class="btn btn-success" href="{% url 'download_csv' %}">
+          <i class="bi bi-download"></i>
+          <span>Download CSV</span>
+        </a>
+      </nav>
+    </div><!-- End Page Title -->
+
+
+    <section class="section">
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Temperature</h5>
+
+              <!-- Line Chart -->
+              <canvas id="temp" style="max-height: 400px;"></canvas>
+              <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Fetch data from the backend
+        fetch('/chart-data/')
+            .then(response => response.json())
+            .then(data => {
+                new Chart(document.querySelector('#temp'), {
+                    type: 'line',
+                    data: {
+                        labels: data.temps,
+                        datasets: [{
+                            label: 'Line Chart',
+                            data: data.temperature,
+                            fill: false,
+                            borderColor: 'rgb(75, 192, 192)',
+                            tension: 0.1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            });
+    });
+</script>
+              <!-- End Line CHart -->
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Humidity</h5>
+
+              <!-- Line Chart -->
+              <canvas id="hum" style="max-height: 400px;"></canvas>
+              <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Fetch data from the backend
+        fetch('/chart-data/')
+            .then(response => response.json())
+            .then(data => {
+                new Chart(document.querySelector('#hum'), {
+                    type: 'line',
+                    data: {
+                        labels: data.temps,
+                        datasets: [{
+                            label: 'Line Chart',
+                            data: data.humidity,
+                            fill: false,
+                            borderColor: 'rgb(75, 200, 0)',
+                            tension: 0.1
+                        }]
+                    },
+                    options: {
+                      responsive: true,
+                      plugins: {
+                        title: {
+                          display: true,
+                          text: (ctx) => 'Point Style: ' + ctx.chart.data.datasets[0].pointStyle,
+                        }
+                      }
+                    }
+                });
+            });
+    });
+</script>
+              <!-- End Line CHart -->
+
+            </div>
+          </div>
+        </div>
+
+              <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Temperature et Humidity</h5>
+
+              <!-- Line Chart -->
+              <canvas id="humandtemp" style="max-height: 400px;"></canvas>
+              <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Fetch data from the backend
+        fetch('/chart-data/')
+            .then(response => response.json())
+            .then(data => {
+                new Chart(document.querySelector('#humandtemp'), {
+                    type: 'bar',
+                    data: {
+                        labels: data.temps,
+                        datasets: [
+                                {
+                            label: "Humidity",
+                            data: data.humidity,
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                  borderColor: 'rgba(75, 192, 192, 1)',
+                                borderWidth: 1
+                          },
+                          {
+                             label: "Temperature",
+                             data: data.temperature,
+                             backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                             borderColor: 'rgba(255, 99, 132, 1)',
+                             borderWidth: 1
+                          }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                          legend: {
+                            position: 'top',
+                          },
+                          title: {
+                            display: true,
+                            text: 'Chart.js Bar Chart'
+                          }
+                        }
+                      },
+                        });
+                    });
+            });
+          </script>
+              <!-- End Line CHart -->
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+{% endblock %}
