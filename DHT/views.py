@@ -181,17 +181,17 @@ def sendtele(dht):
     token = '6351788178:AAFB8Lpt_DzFzJ2SSNKKlvWjmCaLJvhiDro'
     rece_id = 2141917333
     bot = telepot.Bot(token)
-    message = f'🔔 Message Envoyer par wadii: la température dépasse la normale 🔔 \n'
-    message += f'🔥TEMP: {dht.temp} 💧HUM: {dht.hum} ⏰Date: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}'
+    message = f'🚨 Urgent Alert: Temperature Abnormality Detected! 🚨\n\n'
+    message += f'🌡️ Current Temperature: {dht.temp}°C 💧 Humidity: {dht.hum}% ⏰ Date: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}'
+
     bot.sendMessage(rece_id, message)
 def sendwhatsap():
     account_sid = 'AC0fb72eac5ca7aba4fa821b4186fad348'
-    auth_token = 'b22786e98def526e203e262006faa736'
+    auth_token = 'e4d016ef5eb781b45450e2e224b4d07d'
     client = Client(account_sid, auth_token)
-
     message = client.messages.create(
         from_='whatsapp:+14155238886',
-        body='Your appointment is coming up on July 21 at 3PM',
+        body=f'🚨 Urgent Alert: Temperature Abnormality Detected! 🚨\n',
         to='whatsapp:+212762491085'
     )
 

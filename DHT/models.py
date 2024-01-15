@@ -21,22 +21,20 @@ class Dht11(models.Model):
             html_message = f'''
                         <html>
                         <head>
-                            <title>🔔Alerte de Temperature</title>
+                            <title>🚨 Urgent Alert: Temperature Abnormality Detected! 🚨</title>
                         </head>
                         <body>
-                            <h2>température dépasse la normale</h2>
-                            <p>🔥The temperature has exceeded the normal range:</p>
-                            <p>Temperature Value: {self.temp}</p>
-                            <p>⏰ Anomaly detected in the machine at: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
+                            <p>️🌡️ Current Temperature : {self.temp}</p>
+                            <p>⏰ Anomaly detected in the machine at : {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
                         </body>
                         </html>
                     '''
             plain_message = strip_tags(html_message)
             send_mail(
-                'température dépasse la normale,' + str(self.temp),
+                'temperature is above normal : ' + str(self.temp),
                 plain_message,
                 'fadwacharai26@gmail.com',
-                ['fadwacharai8@gmail.com','israechourak8@gmail.com'],
+                ['fadwacharai8@gmail.com','IsraeChourak51@gmail.com '],
                 fail_silently=False,
             )
         return super().save(*args, **kwargs)

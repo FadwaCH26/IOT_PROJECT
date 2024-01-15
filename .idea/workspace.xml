@@ -5,20 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="986f2201-c123-4279-82df-591e4a9581bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project_IOT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_IOT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/logo2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assetsn/images/whiteFavicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DHT/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DHT/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DHT/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/DHT/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DHT/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DHT/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DHT/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DHT/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/card.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/logo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/logo1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/messages-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/messages-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/messages-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/news-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/news-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/news-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/news-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/news-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/not-found.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/profile-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/slides-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/slides-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/slides-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/custom-select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/f-logo_tmp17117" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assetsn/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/hand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/l-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/l-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/logo-compact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/logo-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/images/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assetsn/js/gleek.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assetsn/js/gleek.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/Chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/Chart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/HumByDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/HumByDay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/HumByMonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/HumByMonth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/HumByWeek.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/HumByWeek.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/LoginPasswd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/TempByDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/TempByDay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/TempByMonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/TempByMonth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/TempByWeek.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/TempByWeek.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/authen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/data_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/data_table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/navBar.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/template/shared.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/shared.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/value.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/value.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +90,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Fuji/Desktop/Project_IOT - Copy"
+    "last_opened_file_path": "C:/Users/Fuji/Desktop/Project_IOT/template"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fuji\Desktop\Project_IOT\template" />
       <recent name="C:\Users\Fuji\Desktop\Project_IOT\static\assets\img" />
+      <recent name="C:\Users\Fuji\Desktop\Project_IOT\static\assetsn\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fuji\Desktop\Project_IOT\static\assets\img" />
+      <recent name="C:\Users\Fuji\Desktop\Project_IOT\static\assetsn\images" />
       <recent name="C:\Users\Fuji\Desktop\Project_IOT\static\assetsn" />
     </key>
   </component>
@@ -62,5 +115,16 @@
       <updated>1705105075217</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

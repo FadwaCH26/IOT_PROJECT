@@ -14,7 +14,19 @@
 </head>
 
 <body class="h-100">
-
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
     <div class="login-form-bg h-100">
         <div class="container h-100">
             <div class="row justify-content-center h-100">
@@ -24,7 +36,7 @@
                             <div class="card-body pt-5">
                                 <div class="text-center">
                                     <a href="index.html">
-                                        <img src="{% static 'assets/img/logo.png' %}" alt="Your Logo" height="80"> <!-- Adjust height as needed -->
+                                        <img src="{% static 'assets/img/logo1.png' %}" alt="Your Logo" height="80"> <!-- Adjust height as needed -->
                                     </a>
                                 </div>
                                 <form METHOD="post" class="mt-5 mb-5 login-input" novalidate>
@@ -51,11 +63,11 @@
     <!--**********************************
         Scripts
     ***********************************-->
-    <script src="{% static 'assetsn/plugins/common/common.min.js'%}"></script>
-    <script src="{% static 'assetsn/js/custom.min.js'%}"></script>
-    <script src="{% static 'assetsn/js/settings.js'%}"></script>
-    <script src="{% static 'assetsn/js/gleek.js'%}"></script>
-    <script src="{% static 'assetsn/js/styleSwitcher.js'%}"></script>
+    <script src="{% static 'assetsn/plugins/common/common.min.js' %}" ></script>
+    <script src="{% static 'assetsn/js/custom.min.js' %}" ></script>
+    <script src="{% static 'assetsn/js/settings.js' %}" ></script>
+    <script src="{% static 'assetsn/js/gleek.js' %}" ></script>
+    <script src="{% static 'assetsn/js/styleSwitcher.js' %}" ></script>
 </body>
 </html>
 
